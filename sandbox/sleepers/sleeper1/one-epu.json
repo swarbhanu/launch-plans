@@ -82,11 +82,13 @@
     "git_commit":"${epu_git_commit}"
   },
   "appinstall":{
-    "install_method":"py_venv_setup",
-    "package_repo":"${package_repo}"
+    "install_method":"py_venv_buildout",
+    "package_repo":"${package_repo}",
+    "super_cache":"http://ooi.s3.amazonaws.com/micro1ksupercache.tar.gz"
   },
   "apprun":{
-    "run_method":"supervised"
+    "run_method":"supervised",
+    "autorestart":true
   },
   "username":"controllers",
   "groupname":"users",

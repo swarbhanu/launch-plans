@@ -23,6 +23,13 @@
                   "key":"${ec2_key}",
                   "secret":"${ec2_secret}"
                 }
+              },
+              "ec2-east":{
+                "driver_class":"libcloud.drivers.ec2.EC2NodeDriver",
+                "driver_kwargs":{
+                  "key":"${ec2_key}",
+                  "secret":"${ec2_secret}"
+                }
               }
             },
             "cassandra_hostname":"${cassandra_hostname}",
@@ -69,11 +76,13 @@
     "git_commit":"${epu_git_commit}"
   },
   "appinstall":{
-    "install_method":"py_venv_setup",
-    "package_repo":"${package_repo}"
+    "install_method":"py_venv_buildout",
+    "package_repo":"${package_repo}",
+    "super_cache":"http://ooi.s3.amazonaws.com/micro1ksupercache.tar.gz"
   },
   "apprun":{
-    "run_method":"supervised"
+    "run_method":"supervised",
+    "autorestart":true
   },
   "username":"cc",
   "groupname":"users",

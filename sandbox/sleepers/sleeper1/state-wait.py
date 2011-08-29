@@ -8,7 +8,7 @@ CONTROLLER="epu_controller_sleeper1"
 APP_DIR="/home/controllers/app"
 
 MESSAGING_CONF="/home/ubuntu/messaging.conf"
-VENV_PYTHON="sudo /home/controllers/app-venv/bin/python"
+VENV_PYTHON="sudo /home/controllers/app/bin/python"
 
 import os
 import subprocess
