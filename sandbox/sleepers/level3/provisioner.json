@@ -42,6 +42,321 @@
         "version": "0.1"
       }
     ],
+    "provisioner-container2": [
+      {
+        "name": "epu-provisioner", 
+        "args": { }, 
+        "config": {
+          "epu.ionproc.provisioner":{
+            "context_uri":"https://nimbus.ci.uchicago.edu:8888/ContextBroker/ctx/",
+            "context_key":"${ctxbroker_key}",
+            "context_secret":"${ctxbroker_secret}",
+            "sites":{
+              "ec2-west":{
+                "driver_class":"libcloud.drivers.ec2.EC2USWestNodeDriver",
+                "driver_kwargs":{
+                  "key":"${ec2_key}",
+                  "secret":"${ec2_secret}"
+                }
+              },
+              "ec2-east":{
+                "driver_class":"libcloud.drivers.ec2.EC2NodeDriver",
+                "driver_kwargs":{
+                  "key":"${ec2_key}",
+                  "secret":"${ec2_secret}"
+                }
+              }
+            },
+            "cassandra_hostname":"${cassandra_hostname}",
+            "cassandra_username":"${cassandra_username}",
+            "cassandra_password":"${cassandra_password}",
+            "cassandra_keyspace":"${exchange_scope}",
+            "cassandra_port":9160
+          }
+        },
+        "version": "0.1"
+      }
+    ],
+    "provisioner-container3": [
+      {
+        "name": "epu-provisioner", 
+        "args": { }, 
+        "config": {
+          "epu.ionproc.provisioner":{
+            "context_uri":"https://nimbus.ci.uchicago.edu:8888/ContextBroker/ctx/",
+            "context_key":"${ctxbroker_key}",
+            "context_secret":"${ctxbroker_secret}",
+            "sites":{
+              "ec2-west":{
+                "driver_class":"libcloud.drivers.ec2.EC2USWestNodeDriver",
+                "driver_kwargs":{
+                  "key":"${ec2_key}",
+                  "secret":"${ec2_secret}"
+                }
+              },
+              "ec2-east":{
+                "driver_class":"libcloud.drivers.ec2.EC2NodeDriver",
+                "driver_kwargs":{
+                  "key":"${ec2_key}",
+                  "secret":"${ec2_secret}"
+                }
+              }
+            },
+            "cassandra_hostname":"${cassandra_hostname}",
+            "cassandra_username":"${cassandra_username}",
+            "cassandra_password":"${cassandra_password}",
+            "cassandra_keyspace":"${exchange_scope}",
+            "cassandra_port":9160
+          }
+        },
+        "version": "0.1"
+      }
+    ],
+    "provisioner-container4": [
+      {
+        "name": "epu-provisioner", 
+        "args": { }, 
+        "config": {
+          "epu.ionproc.provisioner":{
+            "context_uri":"https://nimbus.ci.uchicago.edu:8888/ContextBroker/ctx/",
+            "context_key":"${ctxbroker_key}",
+            "context_secret":"${ctxbroker_secret}",
+            "sites":{
+              "ec2-west":{
+                "driver_class":"libcloud.drivers.ec2.EC2USWestNodeDriver",
+                "driver_kwargs":{
+                  "key":"${ec2_key}",
+                  "secret":"${ec2_secret}"
+                }
+              },
+              "ec2-east":{
+                "driver_class":"libcloud.drivers.ec2.EC2NodeDriver",
+                "driver_kwargs":{
+                  "key":"${ec2_key}",
+                  "secret":"${ec2_secret}"
+                }
+              }
+            },
+            "cassandra_hostname":"${cassandra_hostname}",
+            "cassandra_username":"${cassandra_username}",
+            "cassandra_password":"${cassandra_password}",
+            "cassandra_keyspace":"${exchange_scope}",
+            "cassandra_port":9160
+          }
+        },
+        "version": "0.1"
+      }
+    ],
+    "provisioner-container5": [
+      {
+        "name": "epu-provisioner", 
+        "args": { }, 
+        "config": {
+          "epu.ionproc.provisioner":{
+            "context_uri":"https://nimbus.ci.uchicago.edu:8888/ContextBroker/ctx/",
+            "context_key":"${ctxbroker_key}",
+            "context_secret":"${ctxbroker_secret}",
+            "sites":{
+              "ec2-west":{
+                "driver_class":"libcloud.drivers.ec2.EC2USWestNodeDriver",
+                "driver_kwargs":{
+                  "key":"${ec2_key}",
+                  "secret":"${ec2_secret}"
+                }
+              },
+              "ec2-east":{
+                "driver_class":"libcloud.drivers.ec2.EC2NodeDriver",
+                "driver_kwargs":{
+                  "key":"${ec2_key}",
+                  "secret":"${ec2_secret}"
+                }
+              }
+            },
+            "cassandra_hostname":"${cassandra_hostname}",
+            "cassandra_username":"${cassandra_username}",
+            "cassandra_password":"${cassandra_password}",
+            "cassandra_keyspace":"${exchange_scope}",
+            "cassandra_port":9160
+          }
+        },
+        "version": "0.1"
+      }
+    ],
+    "provisioner-container6": [
+      {
+        "name": "epu-provisioner", 
+        "args": { }, 
+        "config": {
+          "epu.ionproc.provisioner":{
+            "context_uri":"https://nimbus.ci.uchicago.edu:8888/ContextBroker/ctx/",
+            "context_key":"${ctxbroker_key}",
+            "context_secret":"${ctxbroker_secret}",
+            "sites":{
+              "ec2-west":{
+                "driver_class":"libcloud.drivers.ec2.EC2USWestNodeDriver",
+                "driver_kwargs":{
+                  "key":"${ec2_key}",
+                  "secret":"${ec2_secret}"
+                }
+              },
+              "ec2-east":{
+                "driver_class":"libcloud.drivers.ec2.EC2NodeDriver",
+                "driver_kwargs":{
+                  "key":"${ec2_key}",
+                  "secret":"${ec2_secret}"
+                }
+              }
+            },
+            "cassandra_hostname":"${cassandra_hostname}",
+            "cassandra_username":"${cassandra_username}",
+            "cassandra_password":"${cassandra_password}",
+            "cassandra_keyspace":"${exchange_scope}",
+            "cassandra_port":9160
+          }
+        },
+        "version": "0.1"
+      }
+    ],
+    "provisioner-container7": [
+      {
+        "name": "epu-provisioner", 
+        "args": { }, 
+        "config": {
+          "epu.ionproc.provisioner":{
+            "context_uri":"https://nimbus.ci.uchicago.edu:8888/ContextBroker/ctx/",
+            "context_key":"${ctxbroker_key}",
+            "context_secret":"${ctxbroker_secret}",
+            "sites":{
+              "ec2-west":{
+                "driver_class":"libcloud.drivers.ec2.EC2USWestNodeDriver",
+                "driver_kwargs":{
+                  "key":"${ec2_key}",
+                  "secret":"${ec2_secret}"
+                }
+              },
+              "ec2-east":{
+                "driver_class":"libcloud.drivers.ec2.EC2NodeDriver",
+                "driver_kwargs":{
+                  "key":"${ec2_key}",
+                  "secret":"${ec2_secret}"
+                }
+              }
+            },
+            "cassandra_hostname":"${cassandra_hostname}",
+            "cassandra_username":"${cassandra_username}",
+            "cassandra_password":"${cassandra_password}",
+            "cassandra_keyspace":"${exchange_scope}",
+            "cassandra_port":9160
+          }
+        },
+        "version": "0.1"
+      }
+    ],
+    "provisioner-container8": [
+      {
+        "name": "epu-provisioner", 
+        "args": { }, 
+        "config": {
+          "epu.ionproc.provisioner":{
+            "context_uri":"https://nimbus.ci.uchicago.edu:8888/ContextBroker/ctx/",
+            "context_key":"${ctxbroker_key}",
+            "context_secret":"${ctxbroker_secret}",
+            "sites":{
+              "ec2-west":{
+                "driver_class":"libcloud.drivers.ec2.EC2USWestNodeDriver",
+                "driver_kwargs":{
+                  "key":"${ec2_key}",
+                  "secret":"${ec2_secret}"
+                }
+              },
+              "ec2-east":{
+                "driver_class":"libcloud.drivers.ec2.EC2NodeDriver",
+                "driver_kwargs":{
+                  "key":"${ec2_key}",
+                  "secret":"${ec2_secret}"
+                }
+              }
+            },
+            "cassandra_hostname":"${cassandra_hostname}",
+            "cassandra_username":"${cassandra_username}",
+            "cassandra_password":"${cassandra_password}",
+            "cassandra_keyspace":"${exchange_scope}",
+            "cassandra_port":9160
+          }
+        },
+        "version": "0.1"
+      }
+    ],
+    "provisioner-container9": [
+      {
+        "name": "epu-provisioner", 
+        "args": { }, 
+        "config": {
+          "epu.ionproc.provisioner":{
+            "context_uri":"https://nimbus.ci.uchicago.edu:8888/ContextBroker/ctx/",
+            "context_key":"${ctxbroker_key}",
+            "context_secret":"${ctxbroker_secret}",
+            "sites":{
+              "ec2-west":{
+                "driver_class":"libcloud.drivers.ec2.EC2USWestNodeDriver",
+                "driver_kwargs":{
+                  "key":"${ec2_key}",
+                  "secret":"${ec2_secret}"
+                }
+              },
+              "ec2-east":{
+                "driver_class":"libcloud.drivers.ec2.EC2NodeDriver",
+                "driver_kwargs":{
+                  "key":"${ec2_key}",
+                  "secret":"${ec2_secret}"
+                }
+              }
+            },
+            "cassandra_hostname":"${cassandra_hostname}",
+            "cassandra_username":"${cassandra_username}",
+            "cassandra_password":"${cassandra_password}",
+            "cassandra_keyspace":"${exchange_scope}",
+            "cassandra_port":9160
+          }
+        },
+        "version": "0.1"
+      }
+    ],
+    "provisioner-container10": [
+      {
+        "name": "epu-provisioner", 
+        "args": { }, 
+        "config": {
+          "epu.ionproc.provisioner":{
+            "context_uri":"https://nimbus.ci.uchicago.edu:8888/ContextBroker/ctx/",
+            "context_key":"${ctxbroker_key}",
+            "context_secret":"${ctxbroker_secret}",
+            "sites":{
+              "ec2-west":{
+                "driver_class":"libcloud.drivers.ec2.EC2USWestNodeDriver",
+                "driver_kwargs":{
+                  "key":"${ec2_key}",
+                  "secret":"${ec2_secret}"
+                }
+              },
+              "ec2-east":{
+                "driver_class":"libcloud.drivers.ec2.EC2NodeDriver",
+                "driver_kwargs":{
+                  "key":"${ec2_key}",
+                  "secret":"${ec2_secret}"
+                }
+              }
+            },
+            "cassandra_hostname":"${cassandra_hostname}",
+            "cassandra_username":"${cassandra_username}",
+            "cassandra_password":"${cassandra_password}",
+            "cassandra_keyspace":"${exchange_scope}",
+            "cassandra_port":9160
+          }
+        },
+        "version": "0.1"
+      }
+    ],
     "dtrs-container": [
       {
         "name": "epu-dtrs", 
