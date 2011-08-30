@@ -29,6 +29,8 @@
               "force_site":"${worker_iaas_site}",
               "epuworker_type":"${worker_deployable_type}",
               "monitor_health":"True",
+              "health_missing_timeout":300,
+              "timed-pulse-irregular":15000,
               "provisioner_vars" : {
                 "exchange_scope":"${exchange_scope}",
                 "epuworker_image_id":"${worker_id}",
@@ -69,7 +71,7 @@
   "pythoncc":{
     "broker":"${broker_ip_address}",
     "sysname":"${exchange_scope}",
-    "broker_heartbeat":"5",
+    "broker_heartbeat":"60",
     "broker_username":"${rabbitmq_username}",
     "broker_password":"${rabbitmq_password}",
     "log_level":"${ion_log_level}"
